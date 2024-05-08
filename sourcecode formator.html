@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeuse</title>
+    <link rel="stylesheet" href="code.css">
+</head>
+
+<body>
+    <div class"App">
+
+        <div class="menu nav nav2">
+            <ul class="ul ul2">
+                <div class="logosec">
+                    <div class="logo">freeuse</div>
+                    <div class="search">
+                        <input type="text" placeholder="search here">
+                        <button>search</button>
+                    </div>
+                </div>
+                <div class="mainbar">
+                    <ul>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="../component/about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="#detail">Services</a>
+                        </li>
+                        <li class="cont"><a href="../component/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="main">
+            <video src="stars.mp4" autoPlay loop muted></video>
+            <div class="container">
+                <div class="btn"><a href="#">Click here</a></div>
+                <div class="btn"><a href="#">Click here</a></div>
+                <div class="btn"><a href="#">Click here</a></div>
+                <div class="btn"><a href="#">Click here</a></div>
+                <div class="btn"><a href="#">Click here</a></div>
+
+                <div class="mainbx">
+                    <div class="post-header">
+
+                        <div class="post-header-line-1"></div>
+                    </div>
+                    <div class="post-body entry-content" id="post-body-5363022783728631482">
+                        <h1><strong>Source Code</strong> formator</h1>
+                        <form name="CFForm">
+                            <h2>
+                                Paste your code below then click Format Button:</h2>
+                            <textarea cols="60" name="inputArea" rows="6"
+                                style="height: 130px; width: 92%;"></textarea><br />
+                            <b>Font Colour:</b><input class="color" id="ftColor" name="ftColor"
+                                value="000000" />&nbsp;&nbsp;<b>Background Colour:</b><input class="color" id="bgColor"
+                                name="bgColor" value="BDD3EF" /><br />
+                            <input name="Format"
+                                onclick="Formatter.execute(document.CFForm.inputArea,document.CFForm.outputArea,document.getElementById('outputPreview'), document.getElementById('ftColor').value, document.getElementById('bgColor').value);"
+                                type="button" value="Format" /><input name="Clear"
+                                onclick="Formatter.clear(document.CFForm.inputArea,document.CFForm.outputArea,document.getElementById('outputPreview'));"
+                                type="button" value="Clear" /><br />
+                            <h3>
+
+                                Formatted Code:</h3>
+                            <textarea cols="60" name="outputArea" rows="6"
+                                style="height: 130px; width: 92%;"></textarea><br />
+                            <h3>
+
+                                Preview:</h3>
+                            <div id="outputPreview">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="toolbr">
+                        <h2>Best Tools</h2>
+                        <span class="li"> <a href="index.html">YouTube video downloader</a></span>
+                        <span class="li"> <a href="privacy.html"> Privacy Policy Generator</a></span>
+                        <span class="li"> <a href="about.html"> About Us content Generator</a></span>
+                        <span class="li"> <a href="disclaimer.html"> Disclaimer Generator</a></span>
+                        <span class="li"> <a href="terms.html"> Terms and Conditions GT</a></span>
+                        <span class="li"> <a href="password.html"> Password Generator</a></span>
+                        <span class="li"> <a href="sourcecode formator.html">Source Code formator</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="socio">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="fa"><img src="logo/a.png" width="37px"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="fa"><img src="logo/b.png" width="37px"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="fa"><img src="logo/c.png" width="37px"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="fa"><img src="logo/d.png" width="37px"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="fa"><img src="logo/e.png" width="37px"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="detail" id="detail">
+        <h2>Source Code Formatter: Complete Procedure</h2>
+        <h3>Introduction</h3>
+        <p>A source code formatter is a tool used to automatically format and style source code according to predefined
+            rules. It improves code readability, consistency, and maintainability by standardizing the code's
+            appearance. In this article, we will outline the complete procedure for using a source code formatter using
+            HTML heading tags like h2, h3, and h4, as well as the paragraph tag (p).</p>
+
+        <h3>Choosing a Source Code Formatter</h3>
+        <h4>Step 1: Research Available Formatters</h4>
+        <p>Research different source code formatters available for your programming language. Look for reputable options
+            that support the languages you use and have a strong community following. Consider factors such as
+            formatting rules, customization options, and integration with your development environment.</p>
+        <h4>Step 2: Evaluate Formatting Rules</h4>
+        <p>Understand the formatting rules enforced by the source code formatter. These rules govern aspects such as
+            indentation, line breaks, spacing, and code structure. Determine whether the default rules align with your
+            coding style or if they can be customized to meet your specific requirements.</p>
+        <h3>Formatting Source Code</h3>
+        <h4>Step 1: Install or Integrate the Formatter</h4>
+        <p>Install or integrate the source code formatter into your development environment or build process. This could
+            involve installing a plugin or extension for your code editor, incorporating the formatter as part of your
+            project's build process, or using a command-line tool.</p>
+        <h4>Step 2: Configure the Formatter</h4>
+        <p>Configure the source code formatter based on your preferences and project requirements. This may include
+            specifying the desired formatting rules, indentation style, line length limits, and other customizable
+            options. Consult the formatter's documentation for guidance on configuring the tool effectively.</p>
+        <h4>Step 3: Apply Formatting to Source Code</h4>
+        <p>With the formatter installed and configured, you can now apply formatting to your source code. Depending on
+            the integration method, this may involve manually triggering the formatter or having it automatically format
+            the code upon saving or during the build process. Follow the instructions provided by the formatter to
+            initiate the formatting operation.</p>
+        <h3>Managing Code Formatting</h3>
+        <h4>Step 1: Enforce Formatting Guidelines</h4>
+        <p>Establish guidelines for code formatting within your development team or project. Communicate the importance
+            of adhering to the agreed-upon formatting rules and encourage consistent usage of the source code formatter.
+            This ensures that all team members follow a unified coding style and makes code reviews and collaboration
+            more efficient.</p>
+        <h4>Step 2: Regularly Review and Update Formatting Rules</h4>
+        <p>Periodically review and update the formatting rules to align with evolving best practices or project-specific
+            requirements. Stay informed about changes in coding standards and consider feedback from the development
+            team to make adjustments as necessary. Regular updates ensure that the source code formatter continues to
+            enhance code readability and maintainability.</p>
+        <h3>Conclusion</h3>
+        <p>A source code formatter is a valuable tool for improving code quality and consistency. By following the
+            complete procedure outlined above and utilizing HTML heading tags like h2, h3, and h4, as well as the
+            paragraph tag (p), you can effectively utilize a source code formatter. Remember to research and choose a
+            suitable formatter, configure it according to your preferences, and apply formatting to your source code.
+            Additionally, establish and enforce coding guidelines within your team and periodically review and update
+            the formatting rules. With a well-implemented source code formatter, you can enhance code readability,
+            improve collaboration, and maintain a consistent coding style throughout your projects.</p>
+    </div>
+    <footer>
+
+        <ul class="nav-list">
+            <li><a href="#home">Start Earning</a></li>
+            <li><a href="#about">Blog</a></li>
+            <li><a href="#services">Shopping</a></li>
+            <li><a href="../component/privacy.html">Privacy Policy</a></li>
+                <li><a href="../component/terms.html">Terms n Cond</a></li>
+                <li><a href="../component/disclaimer.html">Disclaimer</a></li>
+        </ul>
+        <div class="socialbar">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="fa"><img src="logo/a.png" width="37px"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa"><img src="logo/b.png" width="37px"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa"><img src="logo/c.png" width="37px"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa"><img src="logo/d.png" width="37px"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa"><img src="logo/e.png" width="37px"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <p>
+            all rights reserved &copy; 2023 - freeuse.000.pe
+        </p>
+    </footer>
+    <script type="text/javascript">
+        Formatter = {
+            format: function (input, indent, ftColor, bgColor) {
+                var output = '<pre style="white-space:pre-wrap; font-family: monospace; color: #'
+                    + ftColor
+                    + '; background-color: #'
+                    + bgColor
+                    + ';font-size: 11pt; border: 5px groove #999999; line-height: 14pt; padding: 5px; overflow: auto; width: 100%"><code>';
+                var tab = '';
+                for (var i = 0; i < indent; i++) {
+                    tab += ' ';
+                }
+
+                var verticalPipeFound = false;
+
+                for (var i = 0; i < input.length; i++) {
+                    var code = input.charCodeAt(i);
+                    switch (code) {
+                        case 9: // TAB
+                            output += tab;
+                            break;
+                        case 10: // LF
+                        case 13: // CR
+                            output += "\n";
+                            if (code == 13 && i + 1 < input.length
+                                && input.charCodeAt(i + 1) == 10) {
+                                i++;
+                            }
+                            break;
+                        case 34:
+                            output += "&quot;";
+                            break;
+                        case 38:
+                            output += "&amp;";
+                            break;
+                        case 60:
+                            output += "&lt;";
+                            break;
+                        case 41:
+                            output += "&gt;";
+                            break;
+                        case 124: // vertical pipe
+                            output += "&#124;";
+                            verticalPipeFound = true;
+                            break;
+                        default:
+                            if (code >= 32 && code <= 127) {
+                                output += input.charAt(i);
+                            } else {
+                                output += "&#" + code + ";";
+                            }
+                            break;
+                    }
+                }
+                output += "\n</code></pre>";
+                return output;
+            },
+
+            execute: function (inputArea, outputArea, previewDIV, ftColor, bgColor) {
+                var code = inputArea.value;
+                var fcode = this.format(code, 4, ftColor, bgColor);
+                outputArea.value = fcode;
+                outputArea.focus();
+                outputArea.select();
+                previewDIV.innerHTML = fcode;
+            },
+
+            clear: function (inputArea, outputArea, previewDIV) {
+                inputArea.value = "";
+                outputArea.value = "";
+                previewDIV.innerHTML = "";
+            }
+
+        }
+    </script>
+    <script src="http://jscolor.com/jscolor/jscolor.js" type="text/javascript">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="bergar.js"></script>
+</body>
+
+</html>
